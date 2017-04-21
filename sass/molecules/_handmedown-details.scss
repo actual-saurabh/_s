@@ -1,10 +1,92 @@
 /*
-To change this license header, choose License Headers in Project Properties.
-To change this template file, choose Tools | Templates
-and open the template in the editor.
-*/
-/* 
-    Created on : 4 Apr, 2017, 10:10:53 AM
-    Author     : saurabhshukla
+<section class="hmd-details">
+<dl>
+	<dt class="hmd-brand">Brand<</dt>
+	<dd class="hmd-brand"><a href="#" itemprop="brand" itemscope itemtype="http://schema.org/Brand">Woodland</a></dd>
+	<dt class="hmd-model">Model</dt>
+	<dd class="hmd-model"><a href="#" itemprop="model" itemscope itemtype="http://schema.org/Model">Pseude</a></dd>
+	<dt class="hmd-size">Size/ Dimensions</dt>
+	<dd class="hmd-size"><a href="#">11</a></dd>
+	<dt class="hmd-age">Age</dt>
+	<dd class="hmd-age"><a href="#">2 years or less</a></dd>
+	<dt class="hmd-warranty">Remaining Warranty</dt>
+	<dd class="hmd-warranty"><a href="#">1 year or less</a></dd>
+	<dt class="hmd-accessories">Included Accessories</dt>
+	<dd class="hmd-accessories">Polish</dd>
+	<dd class="hmd-accessories">Brush</dd>
+</dl>
+<table class="hmd-seller-availability">
+	<thead>
+		<tr>
+			<th>Day</th>
+			<th>Timings</th>
+		</tr>
+	</thead>
+	<tbody>
+		<tr><meta itemprop="openingHoursSpecification" itemtype="http://schema.org/OpeningHoursSpecification">
+			<th><link itemprop="dayOfWeek" href="http://schema.org/Monday" />Mon</th>
+			<td><time itemprop="opens" content="09:00:00">9 am</time> to <time itemprop="closes" content="17:00:00">11am</time></td>
+		</tr>
+		<tr>
+			<th>Tue</th>
+			<td>9 am to 11am</td>
+		</tr>
+		<tr>
+			<th>Wed</th>
+			<td>9 am to 11am</td>
+		</tr>
+		<tr>
+			<th>Thu</th>
+			<td>9 am to 11am</td>
+		</tr>
+		<tr>
+			<th>Fri</th>
+			<td>9 am to 11am</td>
+		</tr>
+		<tr class="hmd-weekend">
+			<th>Sat</th>
+			<td>9 am to 11am, 4pm to 7pm</td>
+		</tr>
+		<tr class="hmd-weekend">
+			<th>Sun</th>
+			<td>9 am to 11am, 3pm to 5pm</td>
+		</tr>
+	</tbody>
+</table>
+</section>
 */
 
+section.hmd-details{
+	dl{
+		dt{
+			
+			
+		}
+		dd{
+			a{
+				
+			}
+			
+		}
+	}
+	
+	table{
+		thead{
+			tr{
+				th{
+					
+				}
+			}
+		}
+		tbody{
+			tr{
+				th{
+					
+				}
+				td{
+					
+				}
+			}
+		}
+	}
+}
